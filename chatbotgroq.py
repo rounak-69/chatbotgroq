@@ -314,8 +314,4 @@ if prompt:
         st.markdown(reply)
  
         st.session_state.chat_history.append(AIMessage(content=reply))
-<<<<<<< HEAD
         st.session_state.messages.append({"role": "assistant", "content": reply})
-=======
-        st.session_state.messages.append({"role": "assistant", "content": reply})
->>>>>>> f3c1eb412dc6e269e95f297bba395b0c92851416
